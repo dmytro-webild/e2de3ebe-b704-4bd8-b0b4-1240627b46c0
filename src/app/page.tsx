@@ -12,6 +12,8 @@ import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
+import MediaAbout from '@/components/sections/about/MediaAbout';
+import ContactCTA from '@/components/sections/contact/ContactCTA';
 
 export default function LandingPage() {
   return (
@@ -32,8 +34,10 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         { name: "About", id: "#about" },
+        { name: "Our Story", id: "#our-story" },
         { name: "Menu", id: "#menu" },
         { name: "Retail", id: "#retail" },
+        { name: "Inquiry", id: "#inquiry" },
         { name: "Contact", id: "#contact" },
       ]}
       brandName="BUTTER"
@@ -74,6 +78,15 @@ export default function LandingPage() {
     />
   </div>
 
+  <div id="our-story" data-section="our-story">
+      <MediaAbout
+        title="Our Story"
+        description="Founded on the belief that everyday rituals deserve elevated design, Butter bridges the gap between premium coffee culture and lifestyle curation."
+        imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305073-l08q8oy3.png?_wi=1"
+        useInvertedBackground={true}
+      />
+  </div>
+
   <div id="menu" data-section="menu">
       <FeatureCardTwentyOne
       useInvertedBackground={false}
@@ -102,6 +115,16 @@ export default function LandingPage() {
       title="Curated Lifestyle"
       description="Discover a selection of lifestyle goods, beauty, and accessories."
     />
+  </div>
+
+  <div id="inquiry" data-section="inquiry">
+      <ContactCTA
+        tag="Retail Partnership"
+        title="Sell With Us"
+        description="We are always scouting unique lifestyle brands to feature in our retail space. If you are a maker or a brand owner, we'd love to hear from you."
+        buttons={[{ text: "Submit Inquiry", href: "mailto:butterfortlauderdale@gmail.com" }]}
+        useInvertedBackground={false}
+      />
   </div>
 
   <div id="team" data-section="team">
