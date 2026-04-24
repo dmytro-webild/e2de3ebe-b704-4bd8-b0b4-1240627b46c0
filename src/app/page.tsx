@@ -49,9 +49,9 @@ export default function LandingPage() {
       buttons={[{ text: "Visit Us", href: "#contact" }]}
       mediaItems={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305072-w5axp7rr.png",          imageAlt: "Butter Cafe Scene"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305072-w5axp7rr.png?_wi=1",          imageAlt: "Butter Cafe Scene"},
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305073-83c73fzj.png",          imageAlt: "Butter Branding Concept"}
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305073-83c73fzj.png?_wi=1",          imageAlt: "Butter Branding Concept"}
       ]}
       mediaAnimation="slide-up"
       rating={5}
@@ -70,7 +70,7 @@ export default function LandingPage() {
         { title: "Matcha", description: "Premium matcha designed to be clean and smooth." },
         { title: "Curated Retail", description: "A rotating selection of emerging lifestyle brands." },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305073-pqacv5i8.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305073-pqacv5i8.png?_wi=1"
     />
   </div>
 
@@ -84,7 +84,7 @@ export default function LandingPage() {
         { id: "m", title: "Matcha", content: "Premium matcha made with care, designed to be clean, smooth, and craveable." },
         { id: "p", title: "Pastries", content: "Locally sourced pastries from trusted bakeries to keep quality high." },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305073-l08q8oy3.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305073-l08q8oy3.png?_wi=1"
     />
   </div>
 
@@ -95,9 +95,9 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "r1", name: "Lifestyle Goods", price: "Various", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305072-w5axp7rr.png" },
-        { id: "r2", name: "Local Finds", price: "Various", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305073-83c73fzj.png" },
-        { id: "r3", name: "Daily Rituals", price: "Various", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305073-pqacv5i8.png" },
+        { id: "r1", name: "Lifestyle Goods", price: "Various", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305072-w5axp7rr.png?_wi=2" },
+        { id: "r2", name: "Local Finds", price: "Various", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305073-83c73fzj.png?_wi=2" },
+        { id: "r3", name: "Daily Rituals", price: "Various", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305073-pqacv5i8.png?_wi=2" },
       ]}
       title="Curated Lifestyle"
       description="Discover a selection of lifestyle goods, beauty, and accessories."
@@ -111,8 +111,8 @@ export default function LandingPage() {
       gridVariant="two-columns-alternating-heights"
       useInvertedBackground={false}
       members={[
-        { id: "t1", name: "Sophia Chugranis", role: "Co-Founder", description: "Content creator and sociologist bringing cultural insight and brand awareness.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305073-l08q8oy3.png" },
-        { id: "t2", name: "Olivia Lallouz", role: "Co-Founder", description: "Speech-Language Pathologist bringing operational experience and community connection.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305073-83c73fzj.png" },
+        { id: "t1", name: "Sophia Chugranis", role: "Co-Founder", description: "Content creator and sociologist bringing cultural insight and brand awareness.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305073-l08q8oy3.png?_wi=2" },
+        { id: "t2", name: "Olivia Lallouz", role: "Co-Founder", description: "Speech-Language Pathologist bringing operational experience and community connection.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305073-83c73fzj.png?_wi=3" },
       ]}
       title="The Founders"
       description="Bringing a science-backed and culture-first perspective to the community."
