@@ -3,7 +3,7 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
-import HeroBillboard from '@/components/sections/hero/HeroBillboard';
+import HeroOverlay from '@/components/sections/hero/HeroOverlay';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 
@@ -37,15 +37,16 @@ export default function LandingPage() {
         </div>
 
         <div id="hero" data-section="hero">
-          <HeroBillboard
-            background={{ variant: "gradient-bars" }}
+          <HeroOverlay
             title="Fort Lauderdale, buttered."
             description="A design-forward coffee, matcha, and retail platform for everyday ritual."
             tag="Coming Soon"
             buttons={[{ text: "Visit Us", href: "/contact" }]}
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777005364871-kes35v9h.jpg"
             imageAlt="Butter Cafe Scene"
-            mediaAnimation="slide-up"
+            showBlur={true}
+            showDimOverlay={true}
+            textPosition="bottom"
           />
         </div>
 
