@@ -3,7 +3,7 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
-import HeroLogo from '@/components/sections/hero/HeroLogo';
+import HeroOverlay from '@/components/sections/hero/HeroOverlay';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 
@@ -37,11 +37,11 @@ export default function LandingPage() {
         </div>
 
         <div id="hero" data-section="hero">
-          <HeroLogo
-            logoText="BUTTER"
+          <HeroOverlay
+            title="BUTTER"
             description="A design-forward coffee, matcha, and retail platform for everyday ritual."
             buttons={[{ text: "Visit Us", href: "/contact" }]}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777005897383-7s05hnsd.jpg"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777006144782-qd7km8ip.jpg"
           />
         </div>
 
