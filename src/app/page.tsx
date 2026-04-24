@@ -124,6 +124,7 @@ export default function LandingPage() {
         description="We are always scouting unique lifestyle brands to feature in our retail space. If you are a maker or a brand owner, we'd love to hear from you."
         buttons={[{ text: "Submit Inquiry", href: "mailto:butterfortlauderdale@gmail.com" }]}
         useInvertedBackground={false}
+        background={{ variant: "plain" }}
       />
   </div>
 
