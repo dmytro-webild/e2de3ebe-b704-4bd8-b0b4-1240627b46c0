@@ -41,7 +41,7 @@ export default function LandingPage() {
             title=""
             description="A design-forward coffee, matcha, and retail platform for everyday ritual."
             buttons={[{ text: "Visit Us", href: "/contact" }]}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777005364871-kes35v9h.jpg"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777005897383-7s05hnsd.jpg"
             imageAlt="Butter Cafe Scene"
             showBlur={true}
             showDimOverlay={true}
