@@ -150,7 +150,7 @@ export default function LandingPage() {
       background={{ variant: "gradient-bars" }}
       tag="Newsletter"
       title="Stay in the loop."
-      description="Get updates on opening, brand drops, and location announcements."
+      description="Get updates on opening, brand drops, and location announcements. Follow us on Instagram @butterfortlauderdale or email us at butterfortlauderdale@gmail.com."
     />
   </div>
 
