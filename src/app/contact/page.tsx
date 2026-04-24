@@ -2,7 +2,6 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCenter from '@/components/sections/contact/ContactCenter';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 
@@ -35,13 +34,7 @@ export default function ContactPage() {
         />
 
         <div className="pt-32 pb-20">
-            <ContactCenter
-            useInvertedBackground={false}
-            background={{ variant: "gradient-bars" }}
-            tag="Newsletter"
-            title="Stay in the loop."
-            description="Get updates on opening, brand drops, and location announcements. Follow us on Instagram @butterfortlauderdale or email us at butterfortlauderdale@gmail.com."
-            />
+            {/* Newsletter signup section removed */}
         </div>
 
         <FooterLogoReveal
