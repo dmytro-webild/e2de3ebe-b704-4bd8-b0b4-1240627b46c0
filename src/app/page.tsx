@@ -31,22 +31,10 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleFullscreen
       navItems={[
-        {
-          name: "About",
-          id: "#about",
-        },
-        {
-          name: "Menu",
-          id: "#menu",
-        },
-        {
-          name: "Retail",
-          id: "#retail",
-        },
-        {
-          name: "Contact",
-          id: "#contact",
-        },
+        { name: "About", id: "#about" },
+        { name: "Menu", id: "#menu" },
+        { name: "Retail", id: "#retail" },
+        { name: "Contact", id: "#contact" },
       ]}
       brandName="BUTTER"
     />
@@ -54,39 +42,16 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroSplitDualMedia
-      background={{
-        variant: "gradient-bars",
-      }}
+      background={{ variant: "gradient-bars" }}
       title="Fort Lauderdale, buttered."
       description="A design-forward coffee, matcha, and retail platform for everyday ritual."
       tag="Coming Soon"
-      buttons={[
-        {
-          text: "Visit Us",
-          href: "#contact",
-        },
-      ]}
+      buttons={[{ text: "Visit Us", href: "#contact" }]}
       mediaItems={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777000839604-p966s1oj.png",
-          imageAlt: "Butter Cafe Scene",
-        },
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777000839604-p966s1oj.png",          imageAlt: "Butter Cafe Scene"},
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777000839605-mb9pbmgv.png",
-          imageAlt: "Butter Branding Concept",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/musical-note-made-from-coffee-beans-wooden-background_23-2148282093.jpg",
-          imageAlt: "Coffee beans aesthetic",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-hands-holding-coffee-grains_23-2148170695.jpg",
-          imageAlt: "Hands holding coffee grains",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/coffee-beans-with-copy-space_23-2148337604.jpg",
-          imageAlt: "Coffee beans texture",
-        },
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777000839605-mb9pbmgv.png",          imageAlt: "Butter Branding Concept"}
       ]}
       mediaAnimation="slide-up"
       rating={5}
@@ -101,18 +66,9 @@ export default function LandingPage() {
       title="Designed for Culture."
       description="Butter is more than a coffee shop. It is a modern café, retail platform, and community space created for Fort Lauderdale. Inspired by the cafe culture of Los Angeles and New York."
       bulletPoints={[
-        {
-          title: "Coffee",
-          description: "High-quality espresso, classic drinks, and seasonal specials.",
-        },
-        {
-          title: "Matcha",
-          description: "Premium matcha designed to be clean and smooth.",
-        },
-        {
-          title: "Curated Retail",
-          description: "A rotating selection of emerging lifestyle brands.",
-        },
+        { title: "Coffee", description: "High-quality espresso, classic drinks, and seasonal specials." },
+        { title: "Matcha", description: "Premium matcha designed to be clean and smooth." },
+        { title: "Curated Retail", description: "A rotating selection of emerging lifestyle brands." },
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=yrihy8"
     />
@@ -124,21 +80,9 @@ export default function LandingPage() {
       title="What We Serve"
       description="Good coffee, good taste, good things."
       accordionItems={[
-        {
-          id: "c",
-          title: "Coffee",
-          content: "High-quality espresso, classic coffee drinks, cold brew, and seasonal specials.",
-        },
-        {
-          id: "m",
-          title: "Matcha",
-          content: "Premium matcha made with care, designed to be clean, smooth, and craveable.",
-        },
-        {
-          id: "p",
-          title: "Pastries",
-          content: "Locally sourced pastries from trusted bakeries to keep quality high.",
-        },
+        { id: "c", title: "Coffee", content: "High-quality espresso, classic coffee drinks, cold brew, and seasonal specials." },
+        { id: "m", title: "Matcha", content: "Premium matcha made with care, designed to be clean, smooth, and craveable." },
+        { id: "p", title: "Pastries", content: "Locally sourced pastries from trusted bakeries to keep quality high." },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/five-different-grades-roasting-coffee-beans-aromatic-from-raw-fully-roasted-isolated-white-plate-top-view_346278-609.jpg"
     />
@@ -151,42 +95,9 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        {
-          id: "r1",
-          name: "Lifestyle Goods",
-          price: "Various",
-          imageSrc: "http://img.b2bpic.net/free-photo/person-holding-baskets-fresh-pastries-bread-bakery_1170-597.jpg",
-        },
-        {
-          id: "r2",
-          name: "Local Finds",
-          price: "Various",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-sticks-head-through-roasted-beans-enjoys-pleasant-scent-has-mysterious-expression-spends-free-time-coffeehouse_273609-51463.jpg",
-        },
-        {
-          id: "r3",
-          name: "Daily Rituals",
-          price: "Various",
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-cup-coffee_181624-11554.jpg",
-        },
-        {
-          id: "r4",
-          name: "Gifts",
-          price: "Various",
-          imageSrc: "http://img.b2bpic.net/free-photo/flat-design-delicious-alfajores-with-copy-space_23-2148740233.jpg",
-        },
-        {
-          id: "r5",
-          name: "Beauty",
-          price: "Various",
-          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-shot-person-holding-tray-with-freshly-baked-round-cookies_181624-57599.jpg",
-        },
-        {
-          id: "r6",
-          name: "Accessories",
-          price: "Various",
-          imageSrc: "http://img.b2bpic.net/free-photo/various-type-rustic-breads-box_23-2147975199.jpg",
-        },
+        { id: "r1", name: "Lifestyle Goods", price: "Various", imageSrc: "http://img.b2bpic.net/free-photo/person-holding-baskets-fresh-pastries-bread-bakery_1170-597.jpg" },
+        { id: "r2", name: "Local Finds", price: "Various", imageSrc: "http://img.b2bpic.net/free-photo/woman-sticks-head-through-roasted-beans-enjoys-pleasant-scent-has-mysterious-expression-spends-free-time-coffeehouse_273609-51463.jpg" },
+        { id: "r3", name: "Daily Rituals", price: "Various", imageSrc: "http://img.b2bpic.net/free-photo/closeup-cup-coffee_181624-11554.jpg" },
       ]}
       title="Curated Lifestyle"
       description="Discover a selection of lifestyle goods, beauty, and accessories."
@@ -200,20 +111,8 @@ export default function LandingPage() {
       gridVariant="two-columns-alternating-heights"
       useInvertedBackground={false}
       members={[
-        {
-          id: "t1",
-          name: "Sophia Chugranis",
-          role: "Co-Founder",
-          description: "Content creator and sociologist bringing cultural insight and brand awareness.",
-          imageSrc: "http://img.b2bpic.net/free-photo/stylish-man-flannel-suit-glasses-standing-against-brick-wall_613910-6746.jpg",
-        },
-        {
-          id: "t2",
-          name: "Olivia Lallouz",
-          role: "Co-Founder",
-          description: "Speech-Language Pathologist bringing operational experience and community connection.",
-          imageSrc: "http://img.b2bpic.net/free-photo/empty-doctors-office-with-medical-instruments-facility_482257-14089.jpg",
-        },
+        { id: "t1", name: "Sophia Chugranis", role: "Co-Founder", description: "Content creator and sociologist bringing cultural insight and brand awareness.", imageSrc: "http://img.b2bpic.net/free-photo/stylish-man-flannel-suit-glasses-standing-against-brick-wall_613910-6746.jpg" },
+        { id: "t2", name: "Olivia Lallouz", role: "Co-Founder", description: "Speech-Language Pathologist bringing operational experience and community connection.", imageSrc: "http://img.b2bpic.net/free-photo/empty-doctors-office-with-medical-instruments-facility_482257-14089.jpg" },
       ]}
       title="The Founders"
       description="Bringing a science-backed and culture-first perspective to the community."
@@ -224,15 +123,7 @@ export default function LandingPage() {
       <SocialProofOne
       textboxLayout="default"
       useInvertedBackground={false}
-      names={[
-        "Bakery One",
-        "Market Two",
-        "Roaster Three",
-        "Design House",
-        "Studio Five",
-        "Creative Labs",
-        "Local Coffee Co",
-      ]}
+      names={["Bakery One", "Market Two", "Roaster Three", "Design House", "Studio Five", "Creative Labs", "Local Coffee Co"]}
       title="Community Partners"
       description="Local favorites and partners."
     />
@@ -243,21 +134,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       faqs={[
-        {
-          id: "f1",
-          title: "When is Butter opening?",
-          content: "We are currently in development. Follow us on Instagram for opening updates.",
-        },
-        {
-          id: "f2",
-          title: "Where is the shop?",
-          content: "Located in the heart of Fort Lauderdale. Specific address coming soon.",
-        },
-        {
-          id: "f3",
-          title: "How can I collaborate?",
-          content: "Reach out to butterfortlauderdale@gmail.com for partnerships.",
-        },
+        { id: "f1", title: "When is Butter opening?", content: "We are currently in development. Follow us on Instagram for opening updates." },
+        { id: "f2", title: "Where is the shop?", content: "Located in the heart of Fort Lauderdale. Specific address coming soon." },
+        { id: "f3", title: "How can I collaborate?", content: "Reach out to butterfortlauderdale@gmail.com for partnerships." },
       ]}
       title="Frequently Asked"
       description="Everything you need to know about Butter."
@@ -268,9 +147,7 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactCenter
       useInvertedBackground={false}
-      background={{
-        variant: "gradient-bars",
-      }}
+      background={{ variant: "gradient-bars" }}
       tag="Newsletter"
       title="Stay in the loop."
       description="Get updates on opening, brand drops, and location announcements."
@@ -280,14 +157,8 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterLogoReveal
       logoText="BUTTER"
-      leftLink={{
-        text: "Instagram",
-        href: "https://instagram.com/butterfortlauderdale",
-      }}
-      rightLink={{
-        text: "Contact",
-        href: "mailto:butterfortlauderdale@gmail.com",
-      }}
+      leftLink={{ text: "Instagram", href: "https://instagram.com/butterfortlauderdale" }}
+      rightLink={{ text: "Contact", href: "mailto:butterfortlauderdale@gmail.com" }}
     />
   </div>
       </ReactLenis>
