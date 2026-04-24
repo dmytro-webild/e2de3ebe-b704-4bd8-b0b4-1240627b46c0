@@ -40,7 +40,7 @@ export default function LandingPage() {
           <HeroOverlay
             title="Artisan Butter"
             description="Handcrafted, small-batch butter made with passion and quality ingredients for the discerning palate."
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777006144782-qd7km8ip.jpg"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777006599588-6ks2eld0.png"
           />
         </div>
 
