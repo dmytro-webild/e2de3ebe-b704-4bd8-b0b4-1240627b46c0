@@ -19,7 +19,11 @@ export const metadata: Metadata = {
   },
 };
 
-const dmSans = DM_Sans({ variable: "--font-dm-sans", subsets: ["latin"] });
+
+const halant = Halant({
+  variable: "--font-halant",  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+});
 
 export default function RootLayout({
   children,
@@ -29,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${dmSans.variable} antialiased`}>
+        <body className={`${halant.variable} antialiased`}>
           
           {children}
           <script
