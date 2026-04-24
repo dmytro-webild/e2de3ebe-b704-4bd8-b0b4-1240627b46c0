@@ -111,7 +111,7 @@ export default function LandingPage() {
       gridVariant="two-columns-alternating-heights"
       useInvertedBackground={false}
       members={[
-        { id: "t1", name: "Sophia Chugranis", role: "Co-Founder", description: "Content creator and sociologist bringing cultural insight and brand awareness., imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305073-l08q8oy3.png" },
+        { id: "t1", name: "Sophia Chugranis", role: "Co-Founder", description: "Content creator and sociologist bringing cultural insight and brand awareness.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305073-l08q8oy3.png" },
         { id: "t2", name: "Olivia Lallouz", role: "Co-Founder", description: "Speech-Language Pathologist bringing operational experience and community connection.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777001305073-83c73fzj.png" },
       ]}
       title="The Founders"
