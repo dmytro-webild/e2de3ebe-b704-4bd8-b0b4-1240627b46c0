@@ -34,7 +34,6 @@ export default function ContactPage() {
         />
 
         <div className="pt-32 pb-20">
-            {/* Newsletter signup section removed */}
         </div>
 
         <FooterLogoReveal
