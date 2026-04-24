@@ -38,9 +38,8 @@ export default function LandingPage() {
 
         <div id="hero" data-section="hero">
           <HeroOverlay
-            title="Fort Lauderdale, buttered."
+            title="Butter."
             description="A design-forward coffee, matcha, and retail platform for everyday ritual."
-            tag="Coming Soon"
             buttons={[{ text: "Visit Us", href: "/contact" }]}
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ClWbrS92bXmt7LmjB3TsGBCnuR/uploaded-1777005364871-kes35v9h.jpg"
             imageAlt="Butter Cafe Scene"
